@@ -1,0 +1,145 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;   
+    color: #397785;
+    background: linear-gradient(#039da5, #cbf4f4);
+    margin: 0px;
+  }
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+
+#picture {
+    width: 150px;
+    border-radius: 48%;
+    border: 4px solid #7b959a;
+    }
+
+
+h1 {
+    text-shadow: 0px 0px 3px black;
+    color: #457d8a;
+}
+
+
+#age {    
+    border: 1px solid #7b959a;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+    background-color: #7cdaea;
+}
+
+
+#year {    
+    border: 1px solid #7b959a;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+ background-color: #7cdaea;
+    margin-top: -10px;
+}
+
+
+.gift-img{
+    max-width: 400px;
+    height: 400px; 
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-image: url("images/Gift.jpg");
+    background-size: cover;
+    margin: 20px auto;   
+}
+
+
+.gift-title {
+    margin-bottom: 10px;
+  
+}
+
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+#Happy:hover{
+    background-image: url("images/Happy.webp");
+}
+
+#Handsome:hover{
+    background-image: url("images/Handsome.webp");
+}
+
+#Brilliant:hover{
+    background-image: url("images/Brilliant.webp");
+}
+
+
+#badass:hover{
+    background-image: url("images/Badass.webp");
+    background-size: cover; 
+    background-position: top; 
+    background-repeat: no-repeat;   
+}
+
+
+#cheers{
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+
+#cheers:hover {
+    background-image: url("images/Cheers.webp");
+}
+
+
+#footer {
+        background-color: #cbf4f4;
+        color: #457d8a;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        border-top: 1px solid whitesmoke;
+    }
+
+
+.content {
+    flex: 1;
+    padding: 5px;
+}
+
+
+a {
+    color: #457d8a;
+}
+
+
+#gift{
+    padding-bottom: 100px;
+}
+
+
+#audio{
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
